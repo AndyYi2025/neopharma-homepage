@@ -1,0 +1,45 @@
+# NeoPharma robots.txt
+# Allow all standard crawlers and AI engines
+
+# Default rule - allow all
+User-agent: *
+Allow: /
+
+# OpenAI ChatGPT crawler
+User-agent: GPTBot
+Allow: /
+
+# Common Crawl (used by multiple AI models)
+User-agent: CCBot
+Allow: /
+
+# Anthropic Claude crawler
+User-agent: anthropic-ai
+Allow: /
+
+# Anthropic Claude crawler (alternative name)
+User-agent: ClaudeBot
+Allow: /
+
+# Google Gemini and Bard
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.neopharma.io/sitemap.xml
